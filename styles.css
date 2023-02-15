@@ -26,11 +26,44 @@ main{
 ;
 }
 
+.section1{
+    background-image: url("images/image-equilibrium.jpg");
+    background-size: cover;
+    width: auto;
+    height: 300px;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .section1 img{
-    width: 100%;
-    border-radius: 15px;
+    object-fit: scale-down;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
 }
+
+.box{
+    background-color: #0AF8F6;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+
+.box:hover{
+    opacity: 0.6;
+}
+
 
 .section2{
     margin-top: 20px;
@@ -40,6 +73,11 @@ main{
     color: white;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.title:hover{
+ color: #0AF8F6;
 }
 
 p{
@@ -77,6 +115,16 @@ margin-top: 10px;
     margin-top: 20px;
     align-items: center;
     padding-bottom: 20px;
+}
+
+.section3 p:hover{
+    color: #0AF8F6;
+    cursor: pointer;
+}
+
+.section3 span:hover{
+    color: #0AF8F6;
+    cursor: pointer;
 }
 
 .section3 img{
